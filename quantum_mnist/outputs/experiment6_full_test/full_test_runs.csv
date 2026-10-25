@@ -1,0 +1,7 @@
+model,seed,accuracy,macro_f1,test_loss,evaluation_seconds,test_examples,device,checkpoint
+matched_classical_mlp,42,0.8429,0.8393904167167998,0.48385137424468994,0.09764841082505882,10000,cuda,matched_classical_mlp_seed42.pt
+matched_classical_mlp,123,0.8477,0.8449540268172437,0.46642333977222444,0.04103544796817005,10000,cuda,matched_classical_mlp_seed123.pt
+matched_classical_mlp,2026,0.824,0.8218189739075787,0.5406143947601318,0.04093389608897269,10000,cuda,matched_classical_mlp_seed2026.pt
+cosine_feature_control,42,0.8606,0.8577905321064412,0.4099166655778885,0.05474364687688649,10000,cuda,cosine_feature_control_seed42.pt
+cosine_feature_control,123,0.8678,0.8658789366158164,0.40782217574119567,0.042309264885261655,10000,cuda,cosine_feature_control_seed123.pt
+cosine_feature_control,2026,0.8608,0.859466427622522,0.4262304573059082,0.04235856211744249,10000,cuda,cosine_feature_control_seed2026.pt

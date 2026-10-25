@@ -1,0 +1,9 @@
+model,metric,mean,std_sample,seeds
+classical_baseline,accuracy,0.8266666666666667,0.010214368964029717,3
+classical_baseline,macro_f1,0.8277423575676178,0.008937332670278665,3
+classical_baseline,test_loss,0.5083142242034276,0.03179495955964912,3
+classical_baseline,training_seconds,18.662788825575262,1.8388322639109882,3
+cosine_feature_control,accuracy,0.856,0.00793725393319378,3
+cosine_feature_control,macro_f1,0.8564418901005698,0.007519013142133558,3
+cosine_feature_control,test_loss,0.4342259258031846,0.023470138419341424,3
+cosine_feature_control,training_seconds,19.81227672790798,0.2122438408181744,3

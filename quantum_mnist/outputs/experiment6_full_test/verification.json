@@ -1,0 +1,25 @@
+{
+  "test_examples": 10000,
+  "train_examples_used_for_preprocessing": 40000,
+  "num_features": 8,
+  "max_abs_train_feature_difference": 0.0,
+  "preprocessing_verification_passed": true,
+  "test_class_counts": [
+    980,
+    1135,
+    1032,
+    1010,
+    982,
+    892,
+    958,
+    1028,
+    974,
+    1009
+  ],
+  "device": "cuda",
+  "seeds": [
+    42,
+    123,
+    2026
+  ]
+}

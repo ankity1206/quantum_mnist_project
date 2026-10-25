@@ -1,0 +1,4 @@
+model,seed,accuracy,macro_f1,test_loss,training_seconds,device,train_examples,test_examples,trainable_parameters,epochs,batch_size,learning_rate
+cosine_feature_control,42,0.806,0.8069157708449651,0.5853021138906479,1.1167175769805908,cuda,2000,1000,338,10,16,0.01
+cosine_feature_control,123,0.818,0.8180355148645446,0.5691996510028839,0.9456706047058105,cuda,2000,1000,338,10,16,0.01
+cosine_feature_control,2026,0.805,0.8033598584095811,0.5795315693616867,0.9337456226348877,cuda,2000,1000,338,10,16,0.01

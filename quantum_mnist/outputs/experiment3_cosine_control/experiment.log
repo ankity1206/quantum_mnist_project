@@ -1,0 +1,52 @@
+Device: cuda
+Train/test: 2000/1000
+Epochs=10, batch=16, lr=0.01
+Output: /home/ankit/Desktop/qskit/quantum_mnist/outputs/experiment3_cosine_control
+
+=================================================================
+Classical cosine-feature control | seed=42
+=================================================================
+Epoch 01/10 | loss=1.5623 | acc=49.45%
+Epoch 02/10 | loss=0.8325 | acc=72.25%
+Epoch 03/10 | loss=0.7123 | acc=74.80%
+Epoch 04/10 | loss=0.7007 | acc=75.70%
+Epoch 05/10 | loss=0.6661 | acc=76.65%
+Epoch 06/10 | loss=0.6183 | acc=78.75%
+Epoch 07/10 | loss=0.5863 | acc=79.45%
+Epoch 08/10 | loss=0.5660 | acc=80.60%
+Epoch 09/10 | loss=0.5498 | acc=81.05%
+Epoch 10/10 | loss=0.5388 | acc=81.50%
+FINAL seed=42: accuracy=80.60%, macro-F1=0.8069, loss=0.5853, time=1.1s, params=338
+
+=================================================================
+Classical cosine-feature control | seed=123
+=================================================================
+Epoch 01/10 | loss=1.4437 | acc=53.70%
+Epoch 02/10 | loss=0.7544 | acc=75.50%
+Epoch 03/10 | loss=0.6826 | acc=77.15%
+Epoch 04/10 | loss=0.6543 | acc=77.40%
+Epoch 05/10 | loss=0.6158 | acc=78.10%
+Epoch 06/10 | loss=0.5992 | acc=78.60%
+Epoch 07/10 | loss=0.5747 | acc=79.85%
+Epoch 08/10 | loss=0.5652 | acc=81.05%
+Epoch 09/10 | loss=0.5698 | acc=81.10%
+Epoch 10/10 | loss=0.5257 | acc=81.85%
+FINAL seed=123: accuracy=81.80%, macro-F1=0.8180, loss=0.5692, time=0.9s, params=338
+
+=================================================================
+Classical cosine-feature control | seed=2026
+=================================================================
+Epoch 01/10 | loss=1.4350 | acc=56.50%
+Epoch 02/10 | loss=0.7449 | acc=75.95%
+Epoch 03/10 | loss=0.6633 | acc=76.90%
+Epoch 04/10 | loss=0.6261 | acc=78.00%
+Epoch 05/10 | loss=0.5843 | acc=80.80%
+Epoch 06/10 | loss=0.5627 | acc=80.70%
+Epoch 07/10 | loss=0.5362 | acc=81.95%
+Epoch 08/10 | loss=0.5320 | acc=82.50%
+Epoch 09/10 | loss=0.5129 | acc=82.75%
+Epoch 10/10 | loss=0.5188 | acc=82.50%
+FINAL seed=2026: accuracy=80.50%, macro-F1=0.8034, loss=0.5795, time=0.9s, params=338
+
+Experiment complete.
+Summary: /home/ankit/Desktop/qskit/quantum_mnist/outputs/experiment3_cosine_control/comparison_mean_std.csv

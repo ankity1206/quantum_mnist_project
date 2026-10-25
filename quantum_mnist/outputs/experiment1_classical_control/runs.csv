@@ -1,0 +1,4 @@
+model,seed,accuracy,macro_f1,test_loss,training_seconds,device,train_examples,test_examples,features,trainable_parameters,epochs,batch_size,learning_rate,loss
+nonlinear_classical_control,42,0.727,0.7201081723906363,0.7728838204145432,1.1285622119903564,cuda,2000,1000,8,336,10,16,0.01,unweighted_cross_entropy
+nonlinear_classical_control,123,0.759,0.7580480838729449,0.7051277543306351,1.0071156024932861,cuda,2000,1000,8,336,10,16,0.01,unweighted_cross_entropy
+nonlinear_classical_control,2026,0.737,0.7355943071931479,0.7333508447408676,0.9386606216430664,cuda,2000,1000,8,336,10,16,0.01,unweighted_cross_entropy

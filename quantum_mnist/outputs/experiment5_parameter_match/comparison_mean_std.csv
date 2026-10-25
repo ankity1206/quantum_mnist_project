@@ -1,0 +1,5 @@
+,accuracy,accuracy,macro_f1,macro_f1,test_loss,test_loss,training_seconds,training_seconds,trainable_parameters,trainable_parameters
+,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,
+cosine_feature_control,0.856,0.007937,0.856442,0.007519,0.434226,0.02347,18.241833,0.330366,338.0,0.0
+matched_classical_mlp,0.826667,0.019296,0.82739,0.018336,0.513543,0.052104,16.023856,0.409815,333.0,0.0

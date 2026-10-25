@@ -1,0 +1,3 @@
+model,device,test_loss,test_accuracy,total_training_seconds,model_path
+hybrid_quantum,cpu,1.2347375617027283,0.527,296.35473823547363,/home/ankit/Desktop/qskit/quantum_mnist/outputs/multiclass/hybrid_quantum_model.pt
+classical_baseline,cuda,1.1000281612873077,0.599,1.1754779815673828,/home/ankit/Desktop/qskit/quantum_mnist/outputs/multiclass/classical_baseline_model.pt

@@ -1,0 +1,11 @@
+,predicted_0,predicted_1,predicted_2,predicted_3,predicted_4,predicted_5,predicted_6,predicted_7,predicted_8,predicted_9
+actual_0,913,0,3,6,0,40,16,1,1,0
+actual_1,0,1120,4,3,1,2,1,0,4,0
+actual_2,20,2,922,7,16,2,29,5,29,0
+actual_3,1,2,29,813,2,72,2,13,66,10
+actual_4,4,1,9,1,751,7,23,7,3,176
+actual_5,33,1,10,17,7,791,12,2,13,6
+actual_6,25,3,13,1,13,23,878,0,2,0
+actual_7,9,11,30,3,6,5,1,903,5,55
+actual_8,10,5,26,34,10,44,7,8,791,39
+actual_9,16,8,4,14,91,24,7,33,16,796

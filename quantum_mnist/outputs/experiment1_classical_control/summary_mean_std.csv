@@ -1,0 +1,5 @@
+model,metric,mean,std_sample,seeds
+nonlinear_classical_control,accuracy,0.741,0.016370705543744916,3
+nonlinear_classical_control,macro_f1,0.7379168544855764,0.01907629131318579,3
+nonlinear_classical_control,test_loss,0.7371208064953487,0.03403499054670672,3
+nonlinear_classical_control,training_seconds,1.024779478708903,0.09617516777384881,3

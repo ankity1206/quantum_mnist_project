@@ -1,0 +1,142 @@
+Device: cpu
+Train/test: 2000/1000
+Epochs=10, batch=16, lr=0.01
+Output: /home/ankit/Desktop/qskit/quantum_mnist/outputs/experiment2_circuit_ablation
+
+======================================================================
+layers1_entangled | seed=42
+======================================================================
+Epoch 01/10 | loss=2.0164 | acc=20.60% | time=37.2s
+Epoch 02/10 | loss=1.6032 | acc=36.70% | time=37.3s
+Epoch 03/10 | loss=1.5100 | acc=43.55% | time=37.3s
+Epoch 04/10 | loss=1.4738 | acc=44.10% | time=37.2s
+Epoch 05/10 | loss=1.4310 | acc=47.55% | time=37.4s
+Epoch 06/10 | loss=1.4045 | acc=49.05% | time=37.4s
+Epoch 07/10 | loss=1.3776 | acc=50.60% | time=37.4s
+Epoch 08/10 | loss=1.3586 | acc=49.85% | time=37.3s
+Epoch 09/10 | loss=1.3430 | acc=51.05% | time=37.4s
+Epoch 10/10 | loss=1.3256 | acc=52.80% | time=37.5s
+FINAL layers1_entangled_seed42: accuracy=52.30%, macro-F1=0.5074, loss=1.3719, time=6.2 min
+
+======================================================================
+layers1_entangled | seed=123
+======================================================================
+Epoch 01/10 | loss=1.9538 | acc=23.45% | time=37.4s
+Epoch 02/10 | loss=1.6067 | acc=38.10% | time=37.2s
+Epoch 03/10 | loss=1.5143 | acc=42.50% | time=37.4s
+Epoch 04/10 | loss=1.4673 | acc=46.20% | time=37.5s
+Epoch 05/10 | loss=1.4379 | acc=45.70% | time=37.4s
+Epoch 06/10 | loss=1.4183 | acc=47.50% | time=37.3s
+Epoch 07/10 | loss=1.3772 | acc=50.80% | time=37.4s
+Epoch 08/10 | loss=1.3555 | acc=52.40% | time=37.5s
+Epoch 09/10 | loss=1.3435 | acc=52.40% | time=38.5s
+Epoch 10/10 | loss=1.3142 | acc=54.25% | time=38.6s
+FINAL layers1_entangled_seed123: accuracy=53.70%, macro-F1=0.5307, loss=1.3074, time=6.3 min
+
+======================================================================
+layers1_entangled | seed=2026
+======================================================================
+Epoch 01/10 | loss=2.0020 | acc=24.10% | time=38.3s
+Epoch 02/10 | loss=1.5581 | acc=41.30% | time=39.1s
+Epoch 03/10 | loss=1.4591 | acc=47.15% | time=38.7s
+Epoch 04/10 | loss=1.4150 | acc=48.70% | time=38.5s
+Epoch 05/10 | loss=1.3837 | acc=49.30% | time=38.4s
+Epoch 06/10 | loss=1.3641 | acc=50.95% | time=38.4s
+Epoch 07/10 | loss=1.3361 | acc=52.65% | time=38.4s
+Epoch 08/10 | loss=1.3165 | acc=53.30% | time=38.4s
+Epoch 09/10 | loss=1.3025 | acc=53.60% | time=38.6s
+Epoch 10/10 | loss=1.2941 | acc=54.55% | time=38.0s
+FINAL layers1_entangled_seed2026: accuracy=57.00%, macro-F1=0.5518, loss=1.2687, time=6.4 min
+
+======================================================================
+layers2_entangled | seed=42
+======================================================================
+Epoch 01/10 | loss=2.1279 | acc=21.10% | time=105.6s
+Epoch 02/10 | loss=1.6374 | acc=41.70% | time=106.2s
+Epoch 03/10 | loss=1.3672 | acc=51.90% | time=105.6s
+Epoch 04/10 | loss=1.2255 | acc=58.05% | time=105.0s
+Epoch 05/10 | loss=1.1418 | acc=60.90% | time=106.2s
+Epoch 06/10 | loss=1.0735 | acc=64.05% | time=106.0s
+Epoch 07/10 | loss=1.0334 | acc=65.85% | time=107.2s
+Epoch 08/10 | loss=1.0023 | acc=66.20% | time=103.6s
+Epoch 09/10 | loss=0.9943 | acc=66.55% | time=103.7s
+Epoch 10/10 | loss=0.9765 | acc=66.75% | time=104.3s
+FINAL layers2_entangled_seed42: accuracy=68.60%, macro-F1=0.6849, loss=0.9569, time=17.6 min
+
+======================================================================
+layers2_entangled | seed=123
+======================================================================
+Epoch 01/10 | loss=2.2367 | acc=14.05% | time=103.6s
+Epoch 02/10 | loss=1.6854 | acc=39.05% | time=103.6s
+Epoch 03/10 | loss=1.4156 | acc=49.25% | time=103.6s
+Epoch 04/10 | loss=1.2854 | acc=54.20% | time=103.4s
+Epoch 05/10 | loss=1.1676 | acc=59.85% | time=103.6s
+Epoch 06/10 | loss=1.0926 | acc=61.50% | time=103.4s
+Epoch 07/10 | loss=0.9945 | acc=66.35% | time=103.4s
+Epoch 08/10 | loss=0.9081 | acc=69.10% | time=103.6s
+Epoch 09/10 | loss=0.8879 | acc=70.80% | time=103.4s
+Epoch 10/10 | loss=0.8427 | acc=72.30% | time=103.5s
+FINAL layers2_entangled_seed123: accuracy=71.20%, macro-F1=0.7109, loss=0.8979, time=17.3 min
+
+======================================================================
+layers2_entangled | seed=2026
+======================================================================
+Epoch 01/10 | loss=2.1793 | acc=18.20% | time=103.4s
+Epoch 02/10 | loss=1.5376 | acc=45.85% | time=103.5s
+Epoch 03/10 | loss=1.3299 | acc=52.40% | time=103.3s
+Epoch 04/10 | loss=1.2561 | acc=54.45% | time=103.5s
+Epoch 05/10 | loss=1.2112 | acc=56.00% | time=103.3s
+Epoch 06/10 | loss=1.1630 | acc=56.85% | time=103.4s
+Epoch 07/10 | loss=1.1191 | acc=59.30% | time=103.3s
+Epoch 08/10 | loss=1.0624 | acc=62.25% | time=103.5s
+Epoch 09/10 | loss=1.0338 | acc=63.40% | time=103.2s
+Epoch 10/10 | loss=1.0010 | acc=64.40% | time=103.3s
+FINAL layers2_entangled_seed2026: accuracy=67.80%, macro-F1=0.6725, loss=1.0061, time=17.2 min
+
+======================================================================
+layers3_no_entanglement | seed=42
+======================================================================
+Epoch 01/10 | loss=1.5623 | acc=49.45% | time=135.9s
+Epoch 02/10 | loss=0.8325 | acc=72.25% | time=136.1s
+Epoch 03/10 | loss=0.7123 | acc=74.80% | time=136.2s
+Epoch 04/10 | loss=0.7007 | acc=75.70% | time=136.1s
+Epoch 05/10 | loss=0.6661 | acc=76.65% | time=136.2s
+Epoch 06/10 | loss=0.6183 | acc=78.75% | time=136.3s
+Epoch 07/10 | loss=0.5863 | acc=79.45% | time=136.1s
+Epoch 08/10 | loss=0.5660 | acc=80.60% | time=136.1s
+Epoch 09/10 | loss=0.5498 | acc=81.05% | time=136.0s
+Epoch 10/10 | loss=0.5388 | acc=81.50% | time=136.0s
+FINAL layers3_no_entanglement_seed42: accuracy=80.60%, macro-F1=0.8069, loss=0.5853, time=22.7 min
+
+======================================================================
+layers3_no_entanglement | seed=123
+======================================================================
+Epoch 01/10 | loss=1.4437 | acc=53.70% | time=136.0s
+Epoch 02/10 | loss=0.7544 | acc=75.50% | time=136.3s
+Epoch 03/10 | loss=0.6826 | acc=77.15% | time=136.1s
+Epoch 04/10 | loss=0.6543 | acc=77.40% | time=136.1s
+Epoch 05/10 | loss=0.6158 | acc=78.10% | time=136.1s
+Epoch 06/10 | loss=0.5992 | acc=78.60% | time=136.2s
+Epoch 07/10 | loss=0.5747 | acc=79.85% | time=136.0s
+Epoch 08/10 | loss=0.5652 | acc=81.05% | time=136.1s
+Epoch 09/10 | loss=0.5698 | acc=81.10% | time=135.9s
+Epoch 10/10 | loss=0.5257 | acc=81.85% | time=135.9s
+FINAL layers3_no_entanglement_seed123: accuracy=81.80%, macro-F1=0.8180, loss=0.5692, time=22.7 min
+
+======================================================================
+layers3_no_entanglement | seed=2026
+======================================================================
+Epoch 01/10 | loss=1.4350 | acc=56.50% | time=135.9s
+Epoch 02/10 | loss=0.7449 | acc=75.95% | time=135.9s
+Epoch 03/10 | loss=0.6633 | acc=76.90% | time=135.9s
+Epoch 04/10 | loss=0.6261 | acc=78.00% | time=136.0s
+Epoch 05/10 | loss=0.5843 | acc=80.80% | time=136.0s
+Epoch 06/10 | loss=0.5627 | acc=80.70% | time=135.9s
+Epoch 07/10 | loss=0.5362 | acc=81.95% | time=136.0s
+Epoch 08/10 | loss=0.5320 | acc=82.50% | time=136.0s
+Epoch 09/10 | loss=0.5129 | acc=82.75% | time=135.9s
+Epoch 10/10 | loss=0.5188 | acc=82.50% | time=136.1s
+FINAL layers3_no_entanglement_seed2026: accuracy=80.50%, macro-F1=0.8034, loss=0.5795, time=22.7 min
+
+Ablation runs complete.
+Comparison: /home/ankit/Desktop/qskit/quantum_mnist/outputs/experiment2_circuit_ablation/comparison_mean_std.csv
