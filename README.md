@@ -17,6 +17,7 @@ Using all 10,000 official MNIST test images:
 
 | Model | Mean Accuracy |
 |---|---:|
+| Quantum + Classical  | 69.4% |
 | Parameter-matched MLP | 83.82% |
 | Cosine-feature model | 86.31% |
 
