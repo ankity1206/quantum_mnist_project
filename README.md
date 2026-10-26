@@ -1,7 +1,5 @@
 # Quantum MNIST Classification
 
-## Overview
-
 This project compares classical machine learning models with a hybrid quantum-classical model for handwritten digit classification using the MNIST dataset.
 
 The project also evaluates a classical cosine-feature model to investigate whether similar performance can be achieved without quantum simulation.
@@ -26,36 +24,8 @@ The cosine-feature model performed better than the parameter-matched MLP across 
 
 The experiments do **not** establish quantum advantage. The cosine-feature model is classical and reproduces the feature transformation of the tested circuit without entanglement.
 
-## Requirements
 
-- Python 3.10
-- PyTorch
-- Qiskit
-- Qiskit Aer
-- torchvision
-- NumPy
-- pandas
-- scikit-learn
-- Matplotlib
-
-## Running Experiments
-
-Run the experiment scripts from the project directory. For example:
-
-```bash
-python experiment4_40k.py
-python experiment5_parameter_match.py
-python experiment6_full_test.py
-python experiment7_error_analysis.py
-python experiment8_paired_test.py
-```
-
-These scripts use saved outputs from earlier experiments where required. Run the experiments in order when generating results from scratch.
-
-
-For correct predictions, uploaded images must be converted to the same format used during training. The application should load the saved model checkpoint and training-fitted PCA and scaler rather than fitting new preprocessing on each image.
-
-## Project Structure
+## Structure
 
 - `config.py` — Experiment configuration
 - `data_loader.py` — MNIST data loading and sampling
@@ -64,9 +34,9 @@ For correct predictions, uploaded images must be converted to the same format us
 - `quantum_circuit.py` — Quantum circuit construction
 - `quantum_layer.py` — Quantum simulation and gradients
 - `experiment*.py` — Experiment scripts
-- `outputs/` — Saved metrics, model checkpoints, and experiment results
+- `outputs/` — Saved metrics, model checkpoints and experiment results
 
-## Notes
+## Final
 
 - Quantum circuit simulation can be much slower than classical inference.
 - The reported results are specific to the preprocessing, model configurations, and random seeds used in these experiments.
